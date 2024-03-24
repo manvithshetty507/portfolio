@@ -26,3 +26,9 @@ window.addEventListener('resize', function () {
         navbarList.style.display = 'block';
     }
 });
+
+
+function openFinanceApp() {
+    const url = "https://finance-app-inky.vercel.app/";
+    window.open(url, '_blank');
+}
